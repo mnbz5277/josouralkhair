@@ -229,7 +229,7 @@ export const translations = {
     
     latestNews: "Latest News",
     recentUpdates: "Recent Updates",
-    impactReport: "Impact Report 2024",
+    impactReport: "Impact Report 2026",
     
     news1Title: "Emergency Medical Aid Delivered to Gaza Hospitals",
     news1Date: "December 15, 2024",
@@ -495,7 +495,7 @@ export const translations = {
     
     latestNews: "آخر الأخبار",
     recentUpdates: "التحديثات الأخيرة",
-    impactReport: "تقرير الأثر 2024",
+    impactReport: "تقرير الأثر 2026",
     
     news1Title: "تسليم مساعدات طبية طارئة لمستشفيات غزة",
     news1Date: "15 ديسمبر 2024",
