@@ -106,7 +106,7 @@ export default function HeroSection() {
             </Link>
             
             <Link 
-              href="/campaigns"
+              href="/news"
               className="border-2 border-white text-white px-8 py-3.5 rounded font-bold text-lg transition hover:bg-white hover:text-blue-900 inline-block"
             >
               {t('moreDetails')}
