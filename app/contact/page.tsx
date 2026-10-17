@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import { useLanguage } from '@/contexts/LanguageContext'
-import { MapPin, Phone, Mail, Send } from 'lucide-react'
+import { Send } from 'lucide-react'
 
 export default function ContactPage() {
   const { t } = useLanguage()
@@ -112,39 +112,27 @@ export default function ContactPage() {
                 </h2>
                 
                 <div className="space-y-6">
-                  <div className="flex items-start gap-4">
-                    <MapPin className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
-                      <p className="text-gray-600">
-                        1620 Central Ave<br />
-                        Cheyenne, Wyoming (WY)<br />
-                        ZIP Code: 82001
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
+                    <p className="text-gray-600">
+                      1620 Central Ave<br />
+                      Cheyenne, Wyoming (WY)<br />
+                      ZIP Code: 82001
+                    </p>
                   </div>
 
-                  <div className="flex items-start gap-4">
-                    <Phone className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">{t('phone')}</h3>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
-                    </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">{t('phone')}</h3>
+                    <a href="tel:+13073688334" className="text-gray-600 hover:text-blue-600 transition">
+                      +1 (307) 368-8334
+                    </a>
                   </div>
 
-                  <div className="flex items-start gap-4">
-                    <Mail className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">{t('emailLabel')}</h3>
-                      <p className="text-gray-600">info@josouralkhair.org</p>
-                    </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">{t('emailLabel')}</h3>
+                    <p className="text-gray-600">info@josouralkhair.org</p>
                   </div>
                 </div>
-              </div>
-
-              {/* Map Placeholder */}
-              <div className="bg-gray-200 rounded-2xl h-64 flex items-center justify-center">
-                <MapPin className="w-16 h-16 text-gray-400" />
               </div>
             </div>
           </div>
