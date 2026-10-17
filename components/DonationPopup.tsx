@@ -44,8 +44,8 @@ export default function DonationPopup() {
       />
       
       {/* Popup */}
-      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-[90%] max-w-2xl">
-        <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
+      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 w-[90%] max-w-xl max-h-[calc(100dvh-2rem)] overflow-y-auto rounded-2xl">
+        <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
           {/* Close Button */}
           <button
             onClick={() => setIsOpen(false)}
@@ -58,7 +58,7 @@ export default function DonationPopup() {
           {/* Content */}
           <div className="relative">
             {/* Image Only */}
-            <div className="relative h-96">
+            <div className="relative h-64 sm:h-72 md:h-80">
               <Image
                 src="/images/popup-image.jpg"
                 alt="Gaza Relief"
@@ -69,17 +69,17 @@ export default function DonationPopup() {
             </div>
 
             {/* All Text Content Below Image */}
-            <div className="bg-gradient-to-b from-gray-900 to-black p-6 md:p-8 text-white">
+            <div className="bg-gradient-to-b from-gray-900 to-black p-5 md:p-6 text-white">
               {/* Title */}
-              <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-yellow-400">
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-yellow-400">
                 {content.title}
               </h2>
               
-              <p className="text-base md:text-lg mb-4 leading-relaxed text-gray-100">
+              <p className="text-sm md:text-base mb-3 leading-relaxed text-gray-100">
                 {content.text}
               </p>
               
-              <p className="text-base md:text-lg mb-6 leading-relaxed text-gray-100">
+              <p className="text-sm md:text-base mb-4 leading-relaxed text-gray-100">
                 <strong className="text-yellow-400">{content.org}</strong> {content.services}
               </p>
 
@@ -87,7 +87,7 @@ export default function DonationPopup() {
               <Link
                 href="/donate"
                 onClick={() => setIsOpen(false)}
-                className="block w-full bg-orange-500 hover:bg-orange-600 text-white text-center py-4 rounded-lg font-bold text-xl transition shadow-lg hover:shadow-xl"
+                className="block w-full bg-orange-500 hover:bg-orange-600 text-white text-center py-3 rounded-lg font-bold text-lg transition shadow-lg hover:shadow-xl"
               >
                 {content.button}
               </Link>
