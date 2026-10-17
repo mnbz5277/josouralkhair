@@ -14,7 +14,7 @@ export default function RootLayout({
       <head>
         <title>Josour Al-Khair - Gaza Relief</title>
         <meta name="description" content="Josour Al-Khair Foundation for Gaza Relief and Support" />
-        <link rel="icon" type="image/png" href="/images/logo.png.png" />
+        <link rel="icon" type="image/jpeg" href="/images/site-logo.jpg" />
       </head>
       <body style={{ fontFamily: 'Arial, sans-serif' }}>
         <LanguageProvider>
