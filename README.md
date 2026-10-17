@@ -49,6 +49,7 @@ cp .env.local.example .env.local
 1. افتح SQL Editor
 2. نفذ الكود من \`supabase/migrations/001_initial_schema.sql\`
 3. نفذ البيانات التجريبية من \`supabase/seed.sql\` (اختياري)
+4. إذا كانت قاعدة البيانات تحتوي على حملات من البيانات التجريبية القديمة، نفذ \`supabase/migrations/002_fix_campaign_image_paths.sql\` لإصلاح روابط صورها
 
 ### 4. إعداد Stripe Webhooks
 

@@ -19,6 +19,7 @@
 3. انسخ كل محتوى الملف `supabase/migrations/001_initial_schema.sql`
 4. الصقه وانقر **Run**
 5. كرر نفس العملية مع ملف `supabase/seed.sql` (للبيانات التجريبية)
+6. إذا كانت قاعدة البيانات تحتوي على حملات من البيانات التجريبية القديمة، نفذ أيضًا محتوى `supabase/migrations/002_fix_campaign_image_paths.sql` لإصلاح روابط الصور
 
 ### التحقق:
 
