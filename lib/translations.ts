@@ -232,27 +232,27 @@ export const translations = {
     impactReport: "Impact Report 2026",
     
     news1Title: "Emergency Medical Aid Delivered to Gaza Hospitals",
-    news1Date: "December 15, 2024",
+    news1Date: "September 15, 2026",
     news1Excerpt: "Through your generous support, we successfully delivered critical medical supplies and equipment to 5 hospitals in Gaza, enabling doctors to provide life-saving care.",
     
     news2Title: "10,000 Food Packages Distributed to Families",
-    news2Date: "December 10, 2024",
+    news2Date: "August 10, 2026",
     news2Excerpt: "Our emergency food program reached 10,000 families this month, ensuring no one goes hungry during this difficult time.",
     
     news3Title: "New Education Center Opens for Children",
-    news3Date: "December 5, 2024",
+    news3Date: "July 5, 2026",
     news3Excerpt: "Thanks to community support, we opened a new learning center providing education and psychological support to 500 children.",
     
     news4Title: "Winter Relief Campaign Launches",
-    news4Date: "November 28, 2024",
+    news4Date: "May 28, 2026",
     news4Excerpt: "As winter approaches, we're distributing blankets, warm clothing, and heating supplies to displaced families.",
     
     news5Title: "Clean Water Access for 3,000 Families",
-    news5Date: "November 20, 2024",
+    news5Date: "March 20, 2026",
     news5Excerpt: "Our water and sanitation program has provided clean water access to over 3,000 families in underserved areas.",
     
     news6Title: "Partnership with Local Health Clinics",
-    news6Date: "November 15, 2024",
+    news6Date: "January 15, 2026",
     news6Excerpt: "We've established partnerships with 10 local health clinics to expand healthcare access in remote communities.",
     
     impactByNumbers: "Our Impact by Numbers",
@@ -498,27 +498,27 @@ export const translations = {
     impactReport: "تقرير الأثر 2026",
     
     news1Title: "تسليم مساعدات طبية طارئة لمستشفيات غزة",
-    news1Date: "15 ديسمبر 2024",
+    news1Date: "15 سبتمبر 2026",
     news1Excerpt: "من خلال دعمكم السخي، نجحنا في تسليم الإمدادات والمعدات الطبية الحيوية إلى 5 مستشفيات في غزة، مما مكّن الأطباء من تقديم رعاية منقذة للحياة.",
     
     news2Title: "توزيع 10,000 طرد غذائي على العائلات",
-    news2Date: "10 ديسمبر 2024",
+    news2Date: "10 أغسطس 2026",
     news2Excerpt: "وصل برنامجنا الغذائي الطارئ إلى 10,000 عائلة هذا الشهر، مما يضمن عدم جوع أحد خلال هذا الوقت الصعب.",
     
     news3Title: "افتتاح مركز تعليمي جديد للأطفال",
-    news3Date: "5 ديسمبر 2024",
+    news3Date: "5 يوليو 2026",
     news3Excerpt: "بفضل دعم المجتمع، افتتحنا مركز تعلم جديد يوفر التعليم والدعم النفسي لـ 500 طفل.",
     
     news4Title: "إطلاق حملة الإغاثة الشتوية",
-    news4Date: "28 نوفمبر 2024",
+    news4Date: "28 مايو 2026",
     news4Excerpt: "مع اقتراب فصل الشتاء، نقوم بتوزيع البطانيات والملابس الدافئة ومستلزمات التدفئة على العائلات النازحة.",
     
     news5Title: "وصول المياه النظيفة لـ 3,000 عائلة",
-    news5Date: "20 نوفمبر 2024",
+    news5Date: "20 مارس 2026",
     news5Excerpt: "وفر برنامج المياه والصرف الصحي لدينا إمكانية الوصول إلى المياه النظيفة لأكثر من 3,000 عائلة في المناطق المحرومة.",
     
     news6Title: "شراكة مع العيادات الصحية المحلية",
-    news6Date: "15 نوفمبر 2024",
+    news6Date: "15 يناير 2026",
     news6Excerpt: "أقمنا شراكات مع 10 عيادات صحية محلية لتوسيع نطاق الوصول إلى الرعاية الصحية في المجتمعات النائية.",
     
     impactByNumbers: "تأثيرنا بالأرقام",
